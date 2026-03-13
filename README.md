@@ -34,20 +34,6 @@ The system operates through a strict 4-step pipeline:
 
 ---
 
-## 📸 Application Showcase
-
-### 1. Dashboard UI
-*Main interface for real-time video/image processing.*
-![Dashboard UI](https://via.placeholder.com/800x450.png?text=Replace+this+with+your+Dashboard+Screenshot)
-*(Note: Upload your actual screenshot to GitHub and replace the link above)*
-
-### 2. Pipeline Demo Mode
-*A detailed presentation mode breaking down the AI's thought process step-by-step.*
-![Demo Mode](https://via.placeholder.com/800x450.png?text=Replace+this+with+your+Demo+Mode+Screenshot)
-*(Note: Upload your actual screenshot to GitHub and replace the link above)*
-
----
-
 ## 🛠️ Technologies & Libraries Used
 * **Deep Learning Framework:** PyTorch
 * **Segmentation:** Segmentation Models PyTorch (SMP), DeepLabV3 (ResNet50/MobileNetV3 backbone).
