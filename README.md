@@ -1,5 +1,4 @@
 # 🇻🇳 Vietnamese Traffic Sign Recognition System based on Lane Detection
-*(Hệ thống nhận dạng biển báo giao thông Việt Nam theo làn đường di chuyển bằng Deep Learning)*
 
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
@@ -7,16 +6,16 @@
 [![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=flat&logo=opencv&logoColor=white)](https://opencv.org/)
 [![PyQt5](https://img.shields.io/badge/PyQt5-GUI-green)](#)
 
-> **Graduation Thesis 2025** - Ho Chi Minh City University of Natural Resources and Environment (HCMUNRE)
+> **Graduation Thesis 2026** - Ho Chi Minh City University of Natural Resources and Environment (HCMUNRE)
 > 
 > **Author:** Nguyen Tuan Hao
 
-## 📌 Overview (Tổng quan)
+## 📌 Overview
 This project introduces a comprehensive Deep Learning pipeline to solve a specific and practical traffic problem in Vietnam: **Identifying traffic signs that apply ONLY to the ego-lane (the lane the vehicle is currently driving in)**. 
 
 Traditional traffic sign recognition systems often detect all signs in the frame, leading to false alerts from signs meant for other lanes. This system effectively combines Semantic Segmentation, Object Detection, Heuristic Spatial Logic, and Image Classification to filter out irrelevant signs and accurately classify the valid ones.
 
-## 🚀 Key Features (Tính năng chính)
+## 🚀 Key Features
 * **End-to-End Pipeline:** Integrates 3 deep learning models running sequentially to ensure high precision.
 * **Spatial Logic Filtering:** Calculates the intersection and relative position between detected signs and the segmented ego-lane boundaries to reject signs from opposite or parallel lanes.
 * **Small Object Detection:** Utilizes **SAHI** (Slicing Aided Hyper Inference) combined with YOLO to detect tiny traffic signs from a distance.
@@ -24,7 +23,7 @@ Traditional traffic sign recognition systems often detect all signs in the frame
     * Image and Video stream processing.
     * Real-time **"Demo Mode"** showing step-by-step pipeline execution (Segmentation -> Detection -> Logic -> Classification).
 
-## 🧠 System Architecture (Kiến trúc hệ thống)
+## 🧠 System Architecture
 
 The system operates through a strict 4-step pipeline:
 
@@ -35,7 +34,7 @@ The system operates through a strict 4-step pipeline:
 
 ---
 
-## 📸 Application Showcase (Giao diện ứng dụng)
+## 📸 Application Showcase
 
 ### 1. Dashboard UI
 *Main interface for real-time video/image processing.*
@@ -49,7 +48,7 @@ The system operates through a strict 4-step pipeline:
 
 ---
 
-## 🛠️ Technologies & Libraries Used (Công nghệ sử dụng)
+## 🛠️ Technologies & Libraries Used
 * **Deep Learning Framework:** PyTorch
 * **Segmentation:** Segmentation Models PyTorch (SMP), DeepLabV3 (ResNet50/MobileNetV3 backbone).
 * **Detection:** Ultralytics YOLO, SAHI (Slicing Aided Hyper Inference).
@@ -57,7 +56,7 @@ The system operates through a strict 4-step pipeline:
 * **Computer Vision & Augmentation:** OpenCV, Albumentations.
 * **Application GUI:** PyQt5.
 
-## ⚙️ Installation & Usage (Cài đặt & Sử dụng)
+## ⚙️ Installation & Usage
 
 ### Prerequisites
 * Python 3.8+
@@ -67,6 +66,7 @@ The system operates through a strict 4-step pipeline:
 1. Clone the repository:
 
   git clone https://github.com/ntuanhao/vn-traffic-sign-adas.git
+ 
   cd vn-traffic-sign-adas
 
 2. Install dependencies:
@@ -83,9 +83,9 @@ The system operates through a strict 4-step pipeline:
 ### Run the Application
 Start the PyQt5 Dashboard:
 
-    python main.py
+    python app_demo.py
 
-## 📊 Model Training Highlights (Điểm nổi bật trong huấn luyện)
+## 📊 Model Training Highlights
 * **Custom Dataset:** Trained on custom datasets specifically tailored for Vietnamese traffic environments and road conditions.
 * **Loss Optimization:** Combined `Dice Loss` and `Focal Loss` for segmentation to handle class imbalance and improve boundary sharpness.
 * **Data Enhancement:** Applied `CLAHE` and sharpening filters during preprocessing to improve performance in low-light and hazy conditions.
@@ -93,11 +93,11 @@ Start the PyQt5 Dashboard:
 
 ---
 
-## 👨‍💻 Author (Tác giả)
+## 👨‍💻 Author
 **Nguyen Tuan Hao**
 * **Role:** Software Engineer / AI Researcher
-* **Email:** your.email@example.com
-* **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+* **Email:** tuanhao050403@gmail.com
+* **LinkedIn:** www.linkedin.com/in/tuấn-hào-a34b9b218.
 * **University:** Ho Chi Minh City University of Natural Resources and Environment (HCMUNRE)
 
 ---
