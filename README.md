@@ -82,8 +82,8 @@ Start the PyQt5 Dashboard:
 ## 👨‍💻 Author
 **Nguyen Tuan Hao**
 * **Role:** Software Engineer / AI Researcher
-* **Email:** tuanhao050403@gmail.com
-* **LinkedIn:** www.linkedin.com/in/tuấn-hào-a34b9b218.
+* **Email:** [tuanhao050403@gmail.com](mailto:tuanhao050403@gmail.com)
+* **LinkedIn:** [tuấn-hào-a34b9b218](https://www.linkedin.com/in/tuấn-hào-a34b9b218).
 * **University:** Ho Chi Minh City University of Natural Resources and Environment (HCMUNRE)
 
 ---
